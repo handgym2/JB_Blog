@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     
+    '.ap-northeast-2.compute.amazonaws.com',
     'disqus',
     'django.contrib.sites',
 
