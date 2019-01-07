@@ -1,0 +1,40 @@
+a:link {text-decoration: none; color: #9DC8C8}
+a:visited {text-decoration: none; color: #9DC8C8;}
+a:hover {color: cornflowerblue}
+h2{
+    font-family: 'Jua', sans-serif;
+    font-size: 30px
+}
+h2 a{
+    font-family: 'Jua', sans-serif;
+}
+#username#form{
+    position: absolute;
+    bottom: 13cm;
+    right: 13.3cm;
+    width: 100px;
+}
+body{
+    background-color: #FFFFF3
+}
+.contents{
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 25px;
+}
+#name{
+    font-size: 25px
+}
+#username{
+    font-size: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    border: 1.4px solid gray;
+    padding: 1px;
+    position:   absolute;
+    top:        16;
+    left:       240;
+
+}

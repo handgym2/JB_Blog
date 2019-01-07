@@ -1,0 +1,36 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/postpage.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+        <title>JB</title>
+    </head>
+    <body>
+        <div id="name">
+            <h1><a href="">Blog</a></h1>
+        </div>
+        {% for post in posts %}
+          <h2 class="contents">
+            <ul>
+           <li> <a href="{% url 'index' pk=post.pk %}">{{ post.title }}</a> </li>
+            </ul>
+            </h2>
+        {% endfor %}
+        <div id="postit">
+
+        </div>
+
+        <div id="username">
+            {{user}}님
+            <form action="/test/new">
+                    <a id="form">
+                <input type="submit" value="글쓰기">
+                    </a>
+            </form>
+            <form action="/logout">
+                <input type="submit" value="로그아웃" >
+            </form>
+
+        </div>
+    </body>
+</html>

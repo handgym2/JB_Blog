@@ -1,0 +1,199 @@
+a:link {text-decoration: none; color: #9DC8C8}
+a:visited {text-decoration: none; color: #9DC8C8;}
+#home:hover{
+    color: cornflowerblue
+}
+h1{
+    font-size: 56px;
+    position: absolute;
+    left: 16.8cm;
+}
+body{
+    background-color: #FFFFF3;
+}
+.content{
+    position: absolute;
+    left: 16.5cm
+}
+#title{
+    position: absolute;
+    left: -1.7cm;
+    top: 3.3cm;
+    border: 5px solid black;
+    border: 10px solid #58C9B9;
+    background-color: #58C9B9;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px
+}
+#text{
+    position: absolute;
+    left: -3.5cm;
+    top: 5cm;
+    border: 5px solid black;
+    border: 10px solid #519D9E;
+    background-color: #519D9E;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px
+}
+#image{
+    position: absolute;
+    left: -3.5cm;
+    top: 14cm;
+    border: 1px solid black;
+}
+.submit{
+    position: absolute;
+    left: 7.4cm;
+    top: 14cm;
+    width: 120px;
+    border: 10px solid #D1B6E1;
+    background-color: #D1B6E1;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px
+}
+.submit:hover{
+    border: 10px solid #ef5285;
+    background-color: #ef5285;
+}
+#home{
+    position: absolute;
+    left: 0.5cm;
+    top: -1cm;
+    font-size: 50px;
+    color: #519D9E;
+}
+
+#login{
+    position: absolute;
+    left: 689px;
+}
+
+
+#user_id input[type="text"]{
+  width: 330px;
+  height: 30px;
+  position: absolute;
+  left: 600px;
+  top: 155px;
+}
+#pwd input[type="password"]{
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    left: 600px;
+    top: 220px;
+}
+#login_submit{
+    position: absolute;
+    left: 600px;
+    top: 275px;
+    width: 336px;
+    height: 40px;
+    border: 10px solid #D1B6E1;
+    background-color: #D1B6E1;
+    font-size: 16px;
+    color: white; 
+}
+#login_submit:hover{
+    border: 10px solid #566270;
+    background-color: #566270;
+}
+#id{
+    position: absolute;
+    left: 601px;
+    top: 110px
+}
+#signup_id input[type="text"]{
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    left: 600px;
+    top: 220px;
+}
+#email input[type="email"]{
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    left: 600px;
+    top: 287px;
+}
+#pwd1 input[type="password"]{
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    left: 600px;
+    top: 350px;
+}
+#pwd2 input[type="password"]{
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    left: 600px;
+    top: 415px;
+}
+#password{
+    position: absolute;
+    left: 601px;
+    top: 178px;   
+}
+#signup{
+    position: absolute;
+    left: 861px;
+    top: 326px;  
+    border: 2px solid #58C9B9;
+    background-color: #58C9B9;
+    font-size: 15px;
+    color: white;
+}
+#signup:hover{
+    border: 2px solid #4F86C6;
+    background-color: #4F86C6;
+}
+#name{
+    position: absolute;
+    left: 601px;
+    top: 170px;
+    font-size: 19px
+}
+#E-mail{
+    position: absolute;
+    left: 601px;
+    top: 235px;
+    font-size: 19px;
+}
+#pass1{
+    position: absolute;
+    left: 601px;
+    top: 300px;
+    font-size: 19px
+}
+#pass2{
+    position: absolute;
+    left: 601px;
+    top: 363px;
+    font-size: 19px
+}
+#signup-title{
+    position: absolute;
+    left: 695px;
+    top: 100px;
+    font-size: 30px
+}
+#submit-signup{
+    width: 333px;
+    height: 40px;
+    border: 10px solid #58C9B9;
+    background-color: #58C9B9;
+    font-size: 16px;
+    color: white; 
+    position: absolute;
+    left: 600px;
+    top: 456px
+}
+#submit-signup:hover{
+    border: 10px solid #4F86C6;
+    background-color: #4F86C6;
+}

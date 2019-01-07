@@ -1,0 +1,20 @@
+a:link {text-decoration: none; color: #9DC8C8}
+a:visited {text-decoration: none; color: #9DC8C8;}
+a:hover {color: cornflowerblue}
+
+body{
+    background-color: #FFFFF3; 
+}
+
+#login{
+    font-size: 45px;
+    font-weight: 700;
+    border: 2px solid black;
+    width: 200px;
+    padding: 2%;
+    text-align: center;
+    position: absolute;
+    left: 620px;
+    top: 8cm;
+    border-radius: 10px;
+}

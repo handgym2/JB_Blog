@@ -1,0 +1,50 @@
+{% load static %}
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/contents.css' %}">
+    </head>
+<body>
+    <div>
+        <h1 id="name"><a href="../..">Blog</a></h1>
+    </div>
+    <h1>{{title}}</h1>
+
+        {% for post in posts %}
+        <h1 id="delete"><a href="{% url 'delete' pk=post.pk %}">삭제</a></h1>
+        <a class="btn btn-default" href="{% url 'delete' pk=post.pk %}">
+            <span class="glyphicon glyphicon-remove"></span>
+
+        </a>
+        <h1 class="contents">{{post.title}}
+            <div id="showuser">
+                {{post.user}}님
+            </div>
+      </h1>
+        <p class="main_contents">{{post.text}}</p>
+    <a id="edit" href="{% url 'edit' pk=post.pk %}">수정</a>
+
+        {% if post.image.url != none %}    
+       <img src="{{ post.image.url }} " width="240px" height="240px" alt="image" id="image">
+        {% endif %}
+
+
+
+        {% endfor %}
+
+
+<div id="disqus_thread">    
+<script>
+/*
+disqus 댓글
+*/
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https://gailcsauce.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+         </div>               
+</body>
+</html>

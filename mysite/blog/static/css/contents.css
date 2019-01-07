@@ -1,0 +1,59 @@
+a:link {text-decoration: none; color: #9DC8C8}
+a:visited {text-decoration: none; color: #9DC8C8;}
+a:hover {color: cornflowerblue}
+#name{
+    font-size: 50px;
+    color: #9DC8C8
+}
+body{
+    background-color: #FFFFF3
+}
+.contents{ 
+    position: absolute;
+    left: 9cm;
+    top: 1cm ;
+    border: 2px solid black;
+    border-radius: 1em;
+    text-align: center;
+    width: 20cm;
+    
+    
+}
+#delete{
+    position: absolute;
+    left: 16.7cm;
+    top: -0.4cm;
+    font-size: 30px
+}
+#edit{
+    position: absolute;
+    left: 20cm;
+    top: 0.1cm;
+    font-size: 30px;
+    font-weight: bolder
+}
+.main_contents{
+    width: 20cm;
+    border: 2px solid black;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+    left: 305px;
+    top: 3.3cm;
+    line-height: 160%
+}
+#disqus_thread{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+    width: 95%;
+}
+#image{
+    position: absolute;
+    left: 32cm;
+    top: 170px;
+}
+#showuser{
+    font-size: 20px
+}

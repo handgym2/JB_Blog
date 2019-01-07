@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login form</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/forms.css' %}">
+</head>
+<body>
+
+	<h1 id="login">Login</h1>
+	<form method="POST"> {% csrf_token %}
+	<p id="id">아이디</p>
+	<p id="user_id"> {{form.username}}</p>
+	<p id="password">비밀번호</p>
+	<p id="pwd">{{form.password}}</p>
+
+		<input type="submit" value="로그인" id="login_submit">
+	</form>
+	<p>
+		<form action="/join">
+			<input type="submit" value="회원가입" id="signup" >
+		</form>
+	</p>
+</body>
+</html>

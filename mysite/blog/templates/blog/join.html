@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/forms.css' %}">
+</head>
+<h2 id="signup-title">SIGN UP</h2>
+<body>
+<form method="POST" >
+    {% csrf_token %}
+    <p id="name">Name</p>
+    <p id="signup_id">{{form.username}}</p>
+    <p id="E-mail">Email</p>
+    <p id="email">{{form.email}}</p>
+    <p id="pass1">Password</p>
+    <p id="pwd1">{{form.password1}}</p>
+    <p id="pass2">Repeat Password</p>
+    <p id="pwd2">{{form.password2}}</p>
+
+    <input type="submit" value="Sign Up" id="submit-signup">
+</form>
+</body>
+</html>
